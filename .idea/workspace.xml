@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fc6814ed-8929-40d4-b3b4-aac593193897" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/bigos_menu_box/admin/_item.html.erb" afterPath="$PROJECT_DIR$/app/views/bigos_menu_box/admin/_item.html.erb" />
     </list>
     <ignored path="bigos_menu_box.iws" />
@@ -70,7 +69,7 @@
       <file leaf-file-name="_item.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/bigos_menu_box/admin/_item.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="94" selection-start="266" selection-end="266" vertical-scroll-proportion="0.12738854">
+            <state line="8" column="9" selection-start="540" selection-end="540" vertical-scroll-proportion="0.25477707">
               <folding />
             </state>
           </provider>
@@ -898,7 +897,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/bigos_menu_box/admin/_item.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="94" selection-start="266" selection-end="266" vertical-scroll-proportion="0.12738854">
+        <state line="8" column="9" selection-start="540" selection-end="540" vertical-scroll-proportion="0.25477707">
           <folding />
         </state>
       </provider>
