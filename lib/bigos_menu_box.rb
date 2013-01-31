@@ -1,4 +1,6 @@
 require "bigos_menu_box/engine"
+require "simple_form"
+require "cocoon"
 
 module BigosMenuBox
   module Controllers
