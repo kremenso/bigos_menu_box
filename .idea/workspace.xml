@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fc6814ed-8929-40d4-b3b4-aac593193897" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/bigos_app/product_element.rb" afterPath="$PROJECT_DIR$/app/models/bigos_app/product_element.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bigos_menu_box.gemspec" afterPath="$PROJECT_DIR$/bigos_menu_box.gemspec" />
     </list>
     <ignored path="bigos_menu_box.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -141,8 +141,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="795" />
-    <option name="y" value="87" />
+    <option name="x" value="1431" />
+    <option name="y" value="55" />
     <option name="width" value="1283" />
     <option name="height" value="713" />
   </component>
@@ -570,7 +570,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="795" y="87" width="1283" height="713" extended-state="0" />
+    <frame x="1431" y="55" width="1283" height="713" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.36348122" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
