@@ -24,7 +24,7 @@ module BigosApp
     end
 
     def admin_render
-      "bigos_menu_box/admin/_item"
+      "bigos_menu_box/admin/item"
     end
 
 
