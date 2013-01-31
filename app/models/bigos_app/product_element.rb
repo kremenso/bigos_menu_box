@@ -1,7 +1,7 @@
 module BigosApp
 
   class ProductElement < PageElement
-    has_one :product_category, :dependent => :destroy
+    has_one :product_category, :dependent => :destroy, :class_name => "BigosMenuBox::ProductCategory"
     after_save :add_product_category
 
     accepts_nested_attributes_for :product_category
