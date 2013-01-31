@@ -8,7 +8,7 @@ module BigosApp
     accepts_nested_attributes_for :product_category
 
     def add_product_category
-      self.product_category = BigosApp::ProductCategory.create if self.product_category.blank?
+      self.product_category = BigosMenuBox::ProductCategory.create if self.product_category.blank?
     end
 
     def self.class_name
