@@ -1,6 +1,6 @@
 module BigosApp
 
-  class ProductElement < PageElement
+  class BigosMenuBoxElement < PageElement
     has_one :product_category, :dependent => :destroy, :class_name => "BigosMenuBox::ProductCategory"
     after_save :add_product_category
 
@@ -11,7 +11,7 @@ module BigosApp
     end
 
     def self.class_name
-      "Product"
+      "Restaurant Menu"
     end
 
     def name
