@@ -64,7 +64,7 @@
       <file leaf-file-name="product_category.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/models/bigos_menu_box/product_category.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="117" selection-start="283" selection-end="283" vertical-scroll-proportion="0.080935255">
+            <state line="3" column="65" selection-start="231" selection-end="231" vertical-scroll-proportion="0.080935255">
               <folding />
             </state>
           </provider>
@@ -907,7 +907,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/bigos_menu_box/product_category.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="117" selection-start="283" selection-end="283" vertical-scroll-proportion="0.080935255">
+        <state line="3" column="65" selection-start="231" selection-end="231" vertical-scroll-proportion="0.080935255">
           <folding />
         </state>
       </provider>
