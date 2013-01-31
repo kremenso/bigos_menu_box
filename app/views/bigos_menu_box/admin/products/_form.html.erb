@@ -1,6 +1,5 @@
-<% hide_link ||= false %>
-
 <div class='nested-fields'>
+  <% hide_link ||= false %>
   <%= field_set_tag (f.object.name || 'Product') do %>
     <%= f.input :name %>
     <%= f.input :description %>
