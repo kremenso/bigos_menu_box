@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fc6814ed-8929-40d4-b3b4-aac593193897" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/bigos_app/bigos_menu_box_element.rb" afterPath="$PROJECT_DIR$/app/models/bigos_app/bigos_menu_box_element.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/bigos_menu_box/admin/product_categories/_sub_form.html.erb" afterPath="$PROJECT_DIR$/app/views/bigos_menu_box/admin/product_categories/_sub_form.html.erb" />
     </list>
     <ignored path="bigos_menu_box.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,7 +25,10 @@
         <entry file="file://$PROJECT_DIR$/app/views/bigos_menu_box/_item.html.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="1" column="5" selection-start="36" selection-end="36" vertical-scroll-proportion="-0.625">
-              <folding />
+              <folding>
+                <marker date="1359651899000" expanded="true" signature="114:315" placeholder="..." />
+                <marker date="1359651899000" expanded="true" signature="164:289" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -43,7 +46,11 @@
         <entry file="file://$PROJECT_DIR$/lib/bigos_menu_box/controllers/helpers.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="6" column="5" selection-start="103" selection-end="103" vertical-scroll-proportion="0.0">
-              <folding />
+              <folding>
+                <marker date="1359657553000" expanded="true" signature="19:115" placeholder=" ... end" />
+                <marker date="1359657553000" expanded="true" signature="40:111" placeholder=" ... end" />
+                <marker date="1359657553000" expanded="true" signature="59:105" placeholder=" ... end" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -84,10 +91,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bigos_menu_box_element.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="bigos_menu_box_element.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/bigos_app/bigos_menu_box_element.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="28" selection-start="705" selection-end="705" vertical-scroll-proportion="0.7155963">
+            <state line="7" column="44" selection-start="346" selection-end="346" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_sub_form.html.erb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/bigos_menu_box/admin/product_categories/_sub_form.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="40" selection-start="95" selection-end="95" vertical-scroll-proportion="0.08858268">
               <folding />
             </state>
           </provider>
@@ -97,16 +113,9 @@
         <entry file="file://$PROJECT_DIR$/app/views/bigos_menu_box/admin/_item.html.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="install_generator.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/generators/bigos_menu_box/install_generator.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="31" selection-start="379" selection-end="379" vertical-scroll-proportion="0.0">
-              <folding />
+              <folding>
+                <marker date="1359651481000" expanded="true" signature="115:517" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -125,7 +134,6 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/app/views/bigos_menu_box/admin/_item.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/bigos_menu_box/admin/product_categories/_sub_form.html.erb" />
         <option value="$PROJECT_DIR$/app/views/bigos_menu_box/_item.html.erb" />
         <option value="$PROJECT_DIR$/lib/generators/templates/bigos_menu_box.rb" />
         <option value="$PROJECT_DIR$/lib/generators/bigos_contact_box/views_generator.rb" />
@@ -137,6 +145,7 @@
         <option value="$PROJECT_DIR$/db/migrate/20130131164526_create_bigos_menu_box_product_categories.rb" />
         <option value="$PROJECT_DIR$/app/models/bigos_menu_box/product_category.rb" />
         <option value="$PROJECT_DIR$/app/models/bigos_app/bigos_menu_box_element.rb" />
+        <option value="$PROJECT_DIR$/app/views/bigos_menu_box/admin/product_categories/_sub_form.html.erb" />
       </list>
     </option>
   </component>
@@ -334,7 +343,45 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bigos_menu_box" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bigos_menu_box" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bigos_menu_box" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bigos_menu_box" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="product_categories" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -353,10 +400,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="models" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bigos_app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -701,13 +744,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/helpers/bigos_menu_box/application_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/test_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -753,7 +789,10 @@
     <entry file="file://$PROJECT_DIR$/app/views/bigos_menu_box/_item.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="5" selection-start="36" selection-end="36" vertical-scroll-proportion="-0.625">
-          <folding />
+          <folding>
+            <marker date="1359651899000" expanded="true" signature="114:315" placeholder="..." />
+            <marker date="1359651899000" expanded="true" signature="164:289" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -767,7 +806,11 @@
     <entry file="file://$PROJECT_DIR$/lib/bigos_menu_box/controllers/helpers.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="5" selection-start="103" selection-end="103" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <marker date="1359657553000" expanded="true" signature="19:115" placeholder=" ... end" />
+            <marker date="1359657553000" expanded="true" signature="40:111" placeholder=" ... end" />
+            <marker date="1359657553000" expanded="true" signature="59:105" placeholder=" ... end" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -802,13 +845,22 @@
     <entry file="file://$PROJECT_DIR$/app/views/bigos_menu_box/admin/_item.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <marker date="1359651481000" expanded="true" signature="115:517" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/bigos_app/bigos_menu_box_element.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="28" selection-start="705" selection-end="705" vertical-scroll-proportion="0.7155963">
+        <state line="7" column="44" selection-start="346" selection-end="346" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/bigos_menu_box/admin/product_categories/_sub_form.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="40" selection-start="95" selection-end="95" vertical-scroll-proportion="0.08858268">
           <folding />
         </state>
       </provider>

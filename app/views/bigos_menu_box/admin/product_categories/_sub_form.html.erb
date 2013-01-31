@@ -1,7 +1,7 @@
 <% hide_link ||= false %>
 
 <div class="nested-fields">
-  <%= field_set_tag (f.object.name || "Product Category") do %>
+  <%= field_set_tag (f.object.try(:name) || "Product Category") do %>
     <%= f.input :name %>
     <div>
       <%= f.simple_fields_for :products do |p|%>
