@@ -1,6 +1,7 @@
 module BigosApp
 
   class BigosMenuBoxElement < PageElement
+    attr_accessible :is_admin_visible, :name, :type, :page_id, :position, :product_category_attributes
     has_one :product_category, :dependent => :destroy, :class_name => "BigosMenuBox::ProductCategory"
     after_save :add_product_category
 
