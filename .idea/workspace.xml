@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fc6814ed-8929-40d4-b3b4-aac593193897" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/bigos_menu_box/admin/products/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/bigos_menu_box/admin/products/_form.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/bigos_menu_box/product_category.rb" afterPath="$PROJECT_DIR$/app/models/bigos_menu_box/product_category.rb" />
     </list>
     <ignored path="bigos_menu_box.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -61,10 +61,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="product_category.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="product_category.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/models/bigos_menu_box/product_category.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="68" selection-start="133" selection-end="133" vertical-scroll-proportion="0.0">
+            <state line="4" column="4" selection-start="315" selection-end="315" vertical-scroll-proportion="0.107913665">
               <folding />
             </state>
           </provider>
@@ -73,7 +73,7 @@
       <file leaf-file-name="bigos_menu_box_element.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/bigos_app/bigos_menu_box_element.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="44" selection-start="346" selection-end="346" vertical-scroll-proportion="0.0">
+            <state line="4" column="53" selection-start="215" selection-end="263" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -100,16 +100,16 @@
       <file leaf-file-name="_item.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/bigos_menu_box/admin/_item.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+            <state line="3" column="32" selection-start="149" selection-end="162" vertical-scroll-proportion="-1.875">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_item.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="_item.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/bigos_menu_box/_item.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="5" selection-start="36" selection-end="36" vertical-scroll-proportion="0.027522936">
+            <state line="1" column="5" selection-start="36" selection-end="36" vertical-scroll-proportion="-0.625">
               <folding />
             </state>
           </provider>
@@ -138,10 +138,10 @@
         <option value="$PROJECT_DIR$/lib/bigos_menu_box.rb" />
         <option value="$PROJECT_DIR$/lib/bigos_menu_box/controllers/helpers.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20130131164526_create_bigos_menu_box_product_categories.rb" />
-        <option value="$PROJECT_DIR$/app/models/bigos_menu_box/product_category.rb" />
         <option value="$PROJECT_DIR$/app/models/bigos_app/bigos_menu_box_element.rb" />
         <option value="$PROJECT_DIR$/app/views/bigos_menu_box/admin/product_categories/_sub_form.html.erb" />
         <option value="$PROJECT_DIR$/app/views/bigos_menu_box/admin/products/_form.html.erb" />
+        <option value="$PROJECT_DIR$/app/models/bigos_menu_box/product_category.rb" />
       </list>
     </option>
   </component>
@@ -426,6 +426,32 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bigos_menu_box" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bigos_menu_box" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bigos_menu_box" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bigos_app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -837,13 +863,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/bigos_menu_box/product_category.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="68" selection-start="133" selection-end="133" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/bigos_menu_box/product.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -851,9 +870,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/bigos_app/bigos_menu_box_element.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/bigos_menu_box/_item.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="44" selection-start="346" selection-end="346" vertical-scroll-proportion="0.0">
+        <state line="1" column="5" selection-start="36" selection-end="36" vertical-scroll-proportion="-0.625">
           <folding />
         </state>
       </provider>
@@ -874,14 +893,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/bigos_menu_box/admin/_item.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="3" column="32" selection-start="149" selection-end="162" vertical-scroll-proportion="-1.875">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/bigos_menu_box/_item.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/models/bigos_app/bigos_menu_box_element.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="5" selection-start="36" selection-end="36" vertical-scroll-proportion="0.027522936">
+        <state line="4" column="53" selection-start="215" selection-end="263" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/bigos_menu_box/product_category.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="4" selection-start="315" selection-end="315" vertical-scroll-proportion="0.107913665">
           <folding />
         </state>
       </provider>
