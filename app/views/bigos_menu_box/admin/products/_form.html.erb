@@ -1,0 +1,10 @@
+<% hide_link ||= false %>
+
+<div class="nested-fields">
+  <%= field_set_tag (f.object.name || "Product") do %>
+    <%= f.input :name %>
+    <%= f.input :description %>
+    <%= f.input :price %>
+    <%= link_to_remove_association "remove product", f unless hide_link %>
+  <% end %>
+</div>
