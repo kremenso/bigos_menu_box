@@ -8,6 +8,10 @@
       <% end %>
       <%= link_to_add_association 'Add new product', f, :products, :partial => "/bigos_menu_box/admin/products/form", "data-association-insertion-method" => "after", :class => "small button" %>
     </div>
-    <%= link_to_remove_association "remove category", f, :class => "alert small button" unless hide_link %>
+    <% if hide_link %>
+      <%= link_to "Remove category", bigos_menu_box.admin_product_category_path(f.object), :method => :delete, :class => "alert small button", :confirm => "Are you sure?" %>
+    <% else %>
+      <%= link_to_remove_association "remove category", f, :class => "alert small button" %>
+    <% end %>
   <% end %>
 </div>

@@ -4,6 +4,10 @@
     <%= f.input :name %>
     <%= f.input :description %>
     <%= f.input :price %>
-    <%= link_to_remove_association 'remove product', f unless hide_link %>
+    <% if hide_link %>
+      <%= link_to "Remove product", bigos_menu_box.admin_product_path(f.object), :method => :delete, :class => "alert small button", :confirm => "Are you sure?" %>
+    <% else %>
+      <%= link_to_remove_association 'remove product', f unless hide_link %>
+    <% end %>
   <% end %>
 </div>
